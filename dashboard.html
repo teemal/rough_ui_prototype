@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul style="padding:0;">
+          <li>Stuff</li>
+          <li>Stuff</li>
+          <li>Stuff</li>
+          <li>Stuff</li>
+          <a href="./dashboard.html">Data Dashboard</a>
+          <li>Stuff</li>
+          <li>Stuff</li>
+          <li>Stuff</li>
+        </ul>
+      </nav>
+      <h1>DATA DASHBOARD</h1>
+      <hr />
+    </header>
+    <p>
+      <label for="start">Start date:</label>
+      <input
+        type="date"
+        id="start"
+        name="trip-start"
+        value="2018-07-22"
+        min="2018-01-01"
+        max="2018-12-31"
+      />
+    </p>
+    <p>
+      <label for="start">End date:</label>
+      <input
+        type="date"
+        id="start"
+        name="trip-start"
+        value="2018-07-22"
+        min="2018-01-01"
+        max="2018-12-31"
+      />
+    </p>
+    <p>
+      Select graph color
+    </p>
+    <img src="dropper.png" width="30" height="30" />
+    <p>
+      Select background color
+    </p>
+    <img src="dropper.png" width="30" height="30" />
+    <br />
+    <p>
+      Select graph type
+    </p>
+    <form action="#" class="data_select">
+      <select name="graph_type">
+        <option value="volvo">Bar</option>
+        <option value="saab">Pie</option>
+        <option value="fiat">Line</option>
+        <option value="audi">Map</option>
+      </select>
+      <br />
+    </form>
+    <p>
+      Select data set
+    </p>
+    <form action="#" class="data_select">
+      <select name="data_select">
+        <option value="volvo">All</option>
+        <option value="saab">The</option>
+        <option value="fiat">Data</option>
+        <option value="audi">You</option>
+        <option value="audi">Want</option>
+      </select>
+      <br /><br />
+      <button onclick="window.location.href = 'graph.html';">Submit</button>
+    </form>
+  </body>
+</html>
